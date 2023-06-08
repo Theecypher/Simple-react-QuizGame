@@ -1,0 +1,41 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(97, 140, 177);
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+#container {
+  background-color: #fff;
+  padding: 4rem 1rem;
+  border-radius: 20px;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+.buttons {
+  margin: 20px;
+}
+li {
+  margin: 10px;
+  background-color: rgb(65, 65, 99);
+  padding: 10px;
+}
+button {
+  outline: none;
+  border: none;
+  margin: 5px;
+  padding: 8px 10px;
+  font-size: 1rem;
+}
+li:hover {
+  background-color: blue;
+}
